@@ -1,0 +1,63 @@
+﻿  Cleaning remote project directory
+  Validating architecture
+  Validating sources
+  Copying sources remotely to 'pain.informatik.uni-ulm.de'
+  Starting remote build
+  Compiling sources:
+  main.cpp
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(401): warning : ignoring #pragma omp parallel [-Wunknown-pragmas]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(401): warning :  #pragma omp parallel for
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(401): warning :  ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(519): warning : ignoring #pragma omp parallel [-Wunknown-pragmas]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(519): warning :  #pragma omp parallel for
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(519): warning :  ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(541): warning : ignoring #pragma omp parallel [-Wunknown-pragmas]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(541): warning :  #pragma omp parallel for
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(541): warning :  ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(25,29): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(25,29): warning :   for (int i = 0; i < a.size(); i++) {
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(25,29): warning :                              ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(137,27): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(137,27): warning :    for (size_t i = 0; i != si; ++i) {
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(137,27): warning :                            ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(113,12): warning : unused variable ‘val’ [-Wunused-variable]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(113,12): warning :   PyObject* val;
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(113,12): warning :             ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(447,103): warning : conversion to ‘int’ from ‘std::map<std::basic_string<char>, double>::mapped_type {aka double}’ may alter its value [-Wconversion]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(447,103): warning :   int Epsilon = (epsilon["max"] - (epsilon["max"] - epsilon["min"])*((double)t / NumberOfGenerations)) * PopulationSize;
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(447,103): warning :                                                                                                        ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(448,29): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wconversion]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(448,29): warning :   int Gamma = PopulationSize * 0.05;
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(448,29): warning :                              ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(573,26): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(573,26): warning :   if (Number < Swarm.size()) {
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(573,26): warning :                           ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(645,11): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wconversion]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(645,11): warning :   nn = 0.05*PopulationSize;
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(645,11): warning :            ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(654,14): warning : conversion to ‘unsigned int’ from ‘time_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(654,14): warning :   srand(time(0));
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(654,14): warning :               ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(688,20): warning : conversion to ‘int’ from ‘clock_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(688,20): warning :   int start = clock();
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(688,20): warning :                     ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(699,45): warning : conversion to ‘double’ from ‘clock_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(699,45): warning :   fout << '\n' << "time" << '\t' << (clock() - start) / 1000.0 << '\n';
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(699,45): warning :                                              ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(665,9): warning : unused variable ‘mean’ [-Wunused-variable]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(665,9): warning :   double mean;
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(665,9): warning :          ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(685,9): warning : unused variable ‘dispersion’ [-Wunused-variable]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(685,9): warning :   double dispersion = 0, MaxGB, MinGB;
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(685,9): warning :          ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(685,25): warning : unused variable ‘MaxGB’ [-Wunused-variable]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(685,25): warning :   double dispersion = 0, MaxGB, MinGB;
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(685,25): warning :                          ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(685,32): warning : unused variable ‘MinGB’ [-Wunused-variable]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(685,32): warning :   double dispersion = 0, MaxGB, MinGB;
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(685,32): warning :                                 ^
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(122,2): warning : ‘myModule’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(122,2): warning :   if (!myModule) {
+C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\main.cpp(122,2): warning :   ^
+  Linking objects
+  PSOPB_bServer.vcxproj -> C:\Users\Shito\Desktop\PSOPB_bServer — копия\PSOPB_bServer\bin\x64\Debug\PSOPB_bServer.out

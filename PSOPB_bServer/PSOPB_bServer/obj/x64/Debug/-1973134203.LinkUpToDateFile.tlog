@@ -1,0 +1,1 @@
+g++ -o "/home/askorokhod/projects/PSOPB_bServer/bin/x64/Debug/PSOPB_bServer.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/askorokhod/projects/PSOPB_bServer/obj/x64/Debug/main.o -lpython2.7
